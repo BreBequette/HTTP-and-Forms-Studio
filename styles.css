@@ -1,0 +1,72 @@
+html {
+    background-color: #FAF5F7;
+}
+
+body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    padding-top: 10%;
+    margin-bottom: 0%;
+    color: #0A6464;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    padding-top: none;
+    color: #2D9E9E;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+}
+
+#searchbox {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid #E40A3F;
+}
+
+label {
+    color: #2D9E9E;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.engine-picker {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#go {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.2em;
+    color: #E40A3F;
+    background-color: #F3A9BB;
+    border: none;
+    width: 100px; 
+}
+
+#go:hover {
+    background-color: #0A6464;
+    color: #FAF5F7;
+}
